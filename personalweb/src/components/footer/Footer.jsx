@@ -16,7 +16,7 @@ const Footer = () => {
 			style={{ padding: '5em 5em', margin: '0 auto' }}>
 			<Grid divided inverted stackable>
 				<Grid.Row>
-					<Grid.Column width={3}>
+					<Grid.Column width={4}>
 						<Header
 							inverted
 							as='h4'
@@ -31,7 +31,7 @@ const Footer = () => {
 							</a>
 						</List>
 					</Grid.Column>
-					<Grid.Column width={3}>
+					<Grid.Column width={4}>
 						<Header
 							inverted
 							as='h4'
@@ -60,7 +60,7 @@ const Footer = () => {
 							</List.Item>
 						</List>
 					</Grid.Column>
-					<Grid.Column width={7}>
+					<Grid.Column width={8}>
 						<Divider
 							as='h4'
 							className='header'
